@@ -9,37 +9,7 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
-  <servlet>
-    <description></description>
-    <display-name>WelcomeServlet</display-name>
-    <servlet-name>WelcomeBro</servlet-name>
-    <servlet-class>WelcomeServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>WelcomeBro</servlet-name>
-    <url-pattern>/Welcome</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>ServletClass2</display-name>
-    <servlet-name>ServletClass2</servlet-name>
-    <servlet-class>ServletClass2</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>ServletClass2</servlet-name>
-    <url-pattern>/ServletClass2</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>EmployeeServlet</display-name>
-    <servlet-name>EmployeeServlet</servlet-name>
-    <servlet-class>EmployeeServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>EmployeeServlet</servlet-name>
-    <url-pattern>/EmployeeServlet</url-pattern>
-  </servlet-mapping>
-  <servlet>
+   <servlet>
     <description></description>
     <display-name>RegisterServlet</display-name>
     <servlet-name>RegisterServlet</servlet-name>
